@@ -1,0 +1,29 @@
+
+{
+java:S1854*"8Remove this useless assignment to local variable "test".(é ¨º8á•Û½á1J$2ae649b6-2536-4185-aeb3-db707befb756
+´
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ùï¾ÿÿÿÿÿ8ã•Û½á1J$ba5ccef3-025e-432e-9467-31dac43af7e7
+r
+java:S1197"*Move the array designators [] to the type.(ùï¾ÿÿÿÿÿ8å•Û½á1J$b5b45f7a-0ab0-4715-86a3-e8cc264fcba1
+m	java:S106"+Replace this use of System.out by a logger.(ïÅàÅ8å•Û½á1J$a55ea20a-6479-461a-93d6-dc8df2fc9032
+m	java:S106"+Replace this use of System.out by a logger.(Şş»É8æ•Û½á1J$f5a0abb6-7f2a-4b4e-81f4-060249af356e
+r	java:S106"+Replace this use of System.out by a logger.(Ô¨“˜ùÿÿÿÿ8æ•Û½á1J$365afb25-46c7-496e-9287-9afb1f295377
+r	java:S106"+Replace this use of System.out by a logger.(„–¤£úÿÿÿÿ8æ•Û½á1J$604d2d8f-0bcd-4c91-a5bf-5f7f251971c7
+r	java:S106!"+Replace this use of System.out by a logger.(Ô¨“˜ùÿÿÿÿ8æ•Û½á1J$9fda5082-6907-4737-9712-40545addb87b
+r	java:S106""+Replace this use of System.out by a logger.(„–¤£úÿÿÿÿ8ç•Û½á1J$b8ac3fbb-6521-4594-ba7b-e5b085ea7e16
+m	java:S106("+Replace this use of System.out by a logger.(ìç‹£8ç•Û½á1J$5f6ec501-a47f-4657-83ce-6173311fa727
+l
+java:S1481*")Remove this unused "test" local variable.(é ¨º8ç•Û½á1J$682d9a31-06e7-4cd0-83b1-287995b53ade
+m	java:S106,"+Replace this use of System.err by a logger.(Ê³ƒ¸8ê•Û½á1J$6762015d-dbea-4be0-9a1a-76db34c03e80
+m	java:S106."+Replace this use of System.out by a logger.(ÙÆË8è•Û½á1J$047a408a-1d3e-4d6a-926f-7ea3017244fc
+r	java:S1060"+Replace this use of System.out by a logger.(ºñÕİûÿÿÿÿ8è•Û½á1J$e13a4fb4-38f7-4cba-9695-67a0d488fea3
+š
+java:S62042"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ºÛËûûÿÿÿÿ8è•Û½á1J$907dad4a-99c1-4f21-b43d-6d5cfb3597ed
+m	java:S1063"+Replace this use of System.out by a logger.(¨Ìê8é•Û½á1J$df460950-4bf5-4ced-a090-edac4ae5e5fd
+m	java:S1066"+Replace this use of System.out by a logger.(•å8é•Û½á1J$aba43e18-520b-45bf-9b41-4c5981f6531f
+m	java:S106:"+Replace this use of System.out by a logger.(±¤ª¹8é•Û½á1J$e153512d-0b05-4020-8335-79a8edf7f9ae
+r	java:S106?"+Replace this use of System.err by a logger.(šäœÎùÿÿÿÿ8ƒ¨›êá1J$582db539-07cc-4739-ba5b-15fd143e9b7c
+r	java:S106D"+Replace this use of System.out by a logger.(ß´ÎÜıÿÿÿÿ8¸áëöá1J$6a6ef536-f092-4627-bd5a-9fe0952f582b
+w
+java:S1128
+"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8—¢ëöá1J$02dcb810-6a51-4585-9219-a835b98e2101
