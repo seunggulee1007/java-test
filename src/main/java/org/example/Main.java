@@ -2,9 +2,12 @@ package org.example;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
+import java.nio.charset.StandardCharsets;
 import java.text.NumberFormat;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Optional;
@@ -66,6 +69,26 @@ public class Main {
         double price = 3300;
         long tax = Math.round(price / 11);
         System.out.println("tax :: " + tax);
+
+        String test222 = """
+            SELECT *
+              FROM orm_org_relation\s
+             WHERE org_nm LIKE '%%'
+               OR org_nm_eng LIKE '%%'
+               트.
+            """;
+        System.err.println(test222.replace("\u001D", ",,,,"));
+        // System.err.println(new String(test222.getBytes(), StandardCharsets.UTF_8));
+        String escapes = "\\\\u0008,\\\\u0009,\\\\u000a,\\\\u000b,\\\\u001d,\\\\u001c,\\\\u001e,\\\\u001f";
+        System.err.println(escapes);
+        String date = now.toString().concat(" 08:30:59");
+        LocalDateTime parse = LocalDateTime.parse(date, DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+        System.out.println(parse);
+
+        List<String> abbbb = new ArrayList<>();
+        abbbb.add(null);
+        String join = String.join(",", abbbb);
+        System.err.println(join);
     }
 
 }

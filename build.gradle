@@ -14,6 +14,11 @@ repositories {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/jakarta.json/jakarta.json-api
+    implementation 'jakarta.json:jakarta.json-api:2.1.3'
+    implementation 'org.eclipse.parsson:parsson:1.1.1'
+    // https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox
+    implementation 'org.apache.pdfbox:pdfbox:3.0.5'
     // https://mvnrepository.com/artifact/cglib/cglib
     implementation 'cglib:cglib:3.3.0'
     testImplementation(platform("org.junit:junit-bom:5.9.1"))

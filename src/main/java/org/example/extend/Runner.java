@@ -18,6 +18,8 @@ class Sub extends Super{
 public class Runner {
 
     public static void main(String[] args) {
-
+        Sub sub = new Sub();
+        System.out.println(sub.index);
+        sub.printVal();
     }
 }
